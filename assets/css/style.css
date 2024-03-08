@@ -1,0 +1,64 @@
+/* Sets all font to dark blue, and generalizes font family for the page */
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 133);
+}
+
+/* Sets the banner content to be spread to either end of the screen, sets padding size */
+#banner {
+    background-color: rgb(200, 128, 255);
+    font-size: 200%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2%;
+    padding-top: 1%;
+}
+
+/* Modifies the main header (aka name) */
+#banner h1 {
+    display: block;
+    margin-top: 20px;
+}
+
+/* Banner links visual spacing and style */
+#banner-links {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+#banner-links li {
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+#banner-links li a {
+    text-decoration: none;
+}
+
+.content {
+
+}
+
+.content-element {
+    display: inline-flex;
+}
+
+
+.content h2 {
+    padding-right: 100px;
+}
+
+div section {
+    border-left: 5px darkblue;
+}
+
+/* The profile picture's size and shape. */
+#profile-pic {
+    width: 200px;
+    /* clip-path from (Coyier, 2014) */
+    clip-path: circle(100px);
+}
+
