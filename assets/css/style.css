@@ -38,21 +38,16 @@
     text-decoration: none;
 }
 
-.content {
-
-}
-
 .content-element {
     display: inline-flex;
 }
-
 
 .content h2 {
     padding-right: 100px;
 }
 
 div section {
-    border-left: 5px darkblue;
+    border-left: 5px solid darkblue;
 }
 
 /* The profile picture's size and shape. */
