@@ -1,6 +1,8 @@
 # Summary
 
-A website made in University of Denver's Part Time Coding Bootcamp by Alexis (Jack Yazzie) as a week 2 project and portfolio page.
+A website made in University of Denver's Part Time Coding Bootcamp by Alexis (Jack Yazzie) as a week 2 project and portfolio page. Utelizes flexbox and other advanced css code.
+
+Deployed at url: https://sleekwingx.github.io/week-2-challenge-jack-yazzie-portfolio/
 
 ## Resources:
 
