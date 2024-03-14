@@ -4,9 +4,14 @@
     color: rgb(0, 0, 133);
 }
 
+/* changes all paragraphs' font */
+p {
+    color: black;
+    font-size: 20px;
+}
 /* Sets the banner content to be spread to either end of the screen, sets padding size */
 #banner {
-    background-color: rgb(200, 128, 255);
+    background-image: url(../images/blue-sky.png);
     font-size: 200%;
     display: flex;
     justify-content: space-between;
@@ -38,22 +43,94 @@
     text-decoration: none;
 }
 
+/* styles the sections of content */
 .content-element {
     display: inline-flex;
 }
 
+/* centers the text */
+.content-element p {
+    vertical-align: middle;
+}
+
 .content h2 {
-    padding-right: 100px;
+    width: 200px;
+    font-size: large;
+    border-right: 5px solid darkblue;
+    border-radius: 5px;
+}
+
+.content #work-samples {
+    width: 200px;
+    font-size: large;
+    border-right: 5px solid darkblue;
+    min-width: 200px;
 }
 
 div section {
-    border-left: 5px solid darkblue;
+    padding-left: 1rem;
+    margin: 5px;
 }
+
 
 /* The profile picture's size and shape. */
 #profile-pic {
-    width: 200px;
+    width: 100px;
     /* clip-path from (Coyier, 2014) */
-    clip-path: circle(100px);
+    clip-path: circle(50px);
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
+#cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.work-link {
+    max-width: 300px;
+    min-width: 300px;
+    max-height: 300px;
+    text-align: center;
+    /* code below tweaked from week-2 activity 10 */
+    border-style: solid;
+    border-width: 3px;
+    padding: 10px;
+    margin: 20px;
+    flex: 0 0 100px;
+    box-shadow: 10px 0px 20px #03101d;
+    border-radius: 20px 20px 20px;
+}
+
+/* variables dedicated to the first project */
+#horiseon {
+    max-width: 600px;
+    min-width: 600px;
+    max-height: 600px;
+}
+
+#horiseon-img {
+    width: 100%;
+}
+
+/* specifically edits the elements inside the cards */
+.work-link-card-header {
+    font-size: 24px;
+}
+
+.work-link-card-body {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Footer links to contact profile holder */
+#contact-links ul {
+    font-size: larger;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+#contact-links ul li {
+    width: 100px;
+}
